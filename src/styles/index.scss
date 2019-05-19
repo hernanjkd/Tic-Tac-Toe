@@ -1,13 +1,44 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background: lightgray;
+}
+.tile {
+    height: 190px;
+    border: 3px solid lightgray;
+    background: #05065b;
+    color: white;
+    font-size: 130px;
+    font-family: 'papyrus';
+    cursor: pointer;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.pickH1 {
+    margin-top: 100px;
+}
+.pickMainDiv {
+    background: lightgray;
+    text-align: center;
+}
+.buttonsPick {
+    margin: 100px 30px 0 30px;
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+}
+.buttonsDiv {
+    position: relative;
+    top: -40px;
+}
+.wonDiv {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -175px;
+    background: lightgoldenrodyellow;
+    font-size: 30px;
+    width: 350px;
+    height: 50px;
+    z-index: 10;
+    border-radius: 15px;
+}
